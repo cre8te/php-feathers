@@ -1,4 +1,4 @@
-#Simple PHP Wrapper for Feathers REST APIs
+## Simple PHP Wrapper for Feathers REST APIs
 
 ```include('feathers.php');
    try {
@@ -8,7 +8,9 @@
          'password' => 'password'
      ]);
    } catch(Exception $e) {
-     echo die('Cound Not Authenticate');
+     echo die('Could Not Authenticate');
    }
    var_dump($f->find('servicename'));
    ```
+
+   Super Simple written to achieve a quick goal.
